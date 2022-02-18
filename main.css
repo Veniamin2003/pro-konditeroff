@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+}
+
+* {
+    box-sizing: border-box;/* Позволяет не плюсовать значение padding и width елемента*/
+}
+
+p {
+    letter-spacing: 0.03em;/* Межбуквенное расстояние*/
+    line-height: 1.55em;/* Расстояние между строками*/
+    margin: 0;
+}
+h1, h2, h4, h5, h6 {
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.4em;/* Расстояние между строками*/
+}
+
+.container {
+    width: 1110px; /* Задаём чтобы контейнер с логотипом и почтой были с отступами от краёв*/
+    margin: 0 auto; /* LДелаем так, чтобы контейнер с лого и почтой  был по середине страницы*/
+    
+}
+
+.header {
+    padding-top: 72px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;/*Чтобы элементы равномерно распределялись по строке */
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.nav {
+    display: flex; /*Чтобы элементы были в строку */
+    justify-content: space-between;/*Чтобы элементы равномерно распределялись по строке */
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+a {
+    color:#000000;
+    text-decoration: none;/* Убираем нижнее подчеркивание на ссылке*/
+}
+
+.offer{
+    margin-bottom: 98px;
+    margin-top: 52px;
+}
+
+.place {
+    font-size: 18px;
+    margin-bottom: 21px;
+    text-transform: uppercase;/* Все буквы заглавными*/
+}
+
+.offer-title {
+    font-size: 35px;
+    line-height: 1.4em;
+    text-transform: uppercase;/* Все буквы заглавными*/
+    letter-spacing: 0.06em;/* Межбуквенное расстояние*/
+}
+
+.desc {
+    width: 600px;
+    font-size: 18px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.btn {
+    
+    color: rgb(78, 41, 41);
+    background: #fcc8c8;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-weight: 600;
+    display: block;
+    width: 230px;
+    text-align: center;
+    border: 1px solid rgb(167, 113, 113);
+}
+
+.btn:hover {
+    background:#ffe3e3;
+}
+
+.btn:active {
+    background: #cf9b9b;
+}
+
+.intro {
+    background: #fdf0f0;
+    padding: 30px;
+    width: 441px;
+    padding: 40px;
+}
+
+.intro-title {
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.tort-img {
+    width: 441px;
+}
+.advant h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 28px;
+    text-transform: uppercase;/* Все буквы заглавными*/
+    letter-spacing: 0.04em;
+    font-weight: 550;
+}
+
+.advant p {
+    margin-top: 10px;
+    font-weight: normal;
+    
+}
+.advant-container {
+    
+    width: 1200px; /* Задаём чтобы контейнер с логотипом и почтой были с отступами от краёв*/
+    margin: 0 auto; /* LДелаем так, чтобы контейнер с лого и почтой  был по середине страницы*/
+    margin-top: 120px;
+    margin-bottom: 250px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.first-advant img {
+    width: 120px;
+}
+
+.first-advant p {
+    width: 200px;
+}
